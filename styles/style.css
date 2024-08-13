@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shortcut share items */
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.color-1{
+    color: #FF42A5;
+}
+
+/* Nav style stard here */
+.nav-container{
+    box-shadow:0 4px 4px rgba(0, 0, 0, 0.055) ;
+
+}
+.nav-main{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+
+}
+.nav-left span{
+    margin-left: 8px;
+}
+
+.nav-right{
+ 
+}
+
+.navbtn{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.navbtn-follow{
+    background-color:#0B02231A;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-right: 0;
+
+}
+
+/* Nav finish here */
