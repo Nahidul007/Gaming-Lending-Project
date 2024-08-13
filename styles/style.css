@@ -57,4 +57,145 @@ body{
 
 }
 
-/* Nav finish here */
+
+/* header stard here */
+.header-contain{
+    background-image: url(../resources/Group\ 14.png);
+}
+.header-main{
+    display: flex;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-left{
+    width: 50%;
+
+}
+.goat{
+    font-size: 58px;
+    font-weight: 800;
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip:text;
+    color: transparent;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.032);
+}
+
+.header-right{
+    width: 50%;
+
+}
+.header-right img{
+    width: 100%;
+}
+
+.header-para1{
+    margin-bottom:5px;
+}
+.header-para1 i{
+    color: red;
+}
+
+
+.header-para2{
+    margin-bottom:5px;
+}
+.header-para2 i{
+    color: red;
+}
+
+.header-btn1,.header-btn2{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.header-btn1{
+    background-color: #FF42A5;
+    margin-right: 12px;
+
+}
+
+.header-btn2{
+    background-color:#4EC5F7;
+    ;
+}
+
+
+/* 
+Main section stared here
+Gamer container section stared here */
+
+.gamer-conternai{
+    background-color: #FFF9FC;
+
+}
+
+.gamer-section{
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.gamer-left{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.gamer-left img{
+    width: 100%;
+}
+.gamer-right{
+    width: 50%;
+}
+
+.gamer-right h2{
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip:text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: right;
+    margin-top: 40px;
+    
+
+}
+
+.gamer-right p{
+    color:#534C64;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+    
+}
+
+.gamer-right button{
+    background-color: #F948B2;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-left: 450px;
+    
+}
+
+.ourpropose{
+    margin-top: 20px;
+}
+
+.gamer-right h4{
+    text-align: right;
+
+}
