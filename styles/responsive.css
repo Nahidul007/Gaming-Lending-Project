@@ -1,0 +1,41 @@
+@media screen and (max-width: 576px) {
+    .nav-main{
+        flex-direction: column;
+    }
+    .nav-right,
+    .gamer-section
+    .online-card-paren{
+        flex-direction: column;
+     
+    }
+
+    .nav-right button{
+        margin-top: 10px;
+    }
+
+    .nav-container{
+        box-shadow:none ;
+    
+    }
+
+    .header-main{
+    flex-direction: column-reverse;
+    }
+
+    .header-left,.header-right{
+        width: 80%;
+        
+    }
+
+    .gamer-left, .gamer-right{
+        width: 90%;
+    
+    }
+    .gamer-right{
+        margin-right: 150px;
+      
+
+    }
+
+
+}

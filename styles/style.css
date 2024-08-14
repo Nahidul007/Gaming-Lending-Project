@@ -14,7 +14,7 @@ body{
     color: #FF42A5;
 }
 
-/* Nav style stard here */
+ /* Nav style stard here */
 .nav-container{
     box-shadow:0 4px 4px rgba(0, 0, 0, 0.055) ;
 
@@ -39,6 +39,7 @@ body{
 }
 
 .nav-right{
+    display: flex;
  
 }
 
@@ -55,7 +56,7 @@ body{
     border-radius: 8px;
     margin-right: 0;
 
-}
+} 
 
 
 /* header stard here */
@@ -124,7 +125,7 @@ body{
 .header-btn2{
     background-color:#4EC5F7;
     ;
-}
+} 
 
 
 /* 
@@ -188,6 +189,7 @@ Gamer container section stared here */
     padding: 12px 15px;
     border-radius: 20px;
     margin-left: 450px;
+    display: flex;
     
 }
 
@@ -198,4 +200,73 @@ Gamer container section stared here */
 .gamer-right h4{
     text-align: right;
 
+} 
+
+/* Online game css section stard */
+.online-game-section{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.online-para{
+    margin: 0 auto;
+
+}
+.online-para h2{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.online-para p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 6px;
+
+}
+
+.online-para span{
+    background-image: linear-gradient(#F948B2,#8758F1);
+    background-clip:text;
+    color: transparent;
+}
+
+.online-card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.online-card{
+    position: relative;
+    
+
+
+}
+
+.online-card img{
+    width: 100%;
+}
+
+.watch-now{
+    position: absolute;
+    top: 38%;
+    left: 33%;
+    text-align: center;
+    display: none;
+}
+
+.watch-now span{
+    font-size: 30px;
+    color: white;
+}
+
+.online-card img:hover+.watch-now{
+    display: block;
+    
+}
+
+.online-card img:hover{
+    filter: brightness(50%);
 }
